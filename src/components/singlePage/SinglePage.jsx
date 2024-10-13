@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './singlePage.css'
 import { useParams } from 'react-router-dom'
-import SinglePageSlider from './slider/singlePageSlider'
+import SinglePageSlider from './slider/SinglePageSlider'
 import { hero } from '../../assets/dummyData'
 import Side from '../home/sideContent/side/Side'
 
