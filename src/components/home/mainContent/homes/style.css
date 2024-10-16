@@ -8,6 +8,14 @@ main .container {
 .sideContent {
   width: 23%;
 }
+@media(max-width: 1024px) {
+  .mainContent {
+    width: 70%;
+  }
+  .sideContent {
+    width: 28%;
+  }
+}
 @media(max-width: 768px) {
   main .container {
     flex-direction: column;

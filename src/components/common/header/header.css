@@ -30,6 +30,9 @@ header li a:hover {
   .head .ad {
     display: none;
   }
+  .head .logo {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 786px) {
   .head .logo img {

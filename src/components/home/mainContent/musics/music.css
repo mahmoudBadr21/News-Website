@@ -10,16 +10,18 @@
   height: 220px;
 }
 .music img {
-  width: 320px;
+  width: 100%;
   height: 220px;
   object-fit: cover;
 }
 .music h1 {
   font-size: 22px;
 }
-@media(max-width: 768px) {
-  .music img,
+@media(max-width: 1024px) {
+  .music .box {
+    flex-direction: column;
+  }
   .music .images {
-    height: 350px;
+    width: 100%;
   }
 }

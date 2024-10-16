@@ -25,27 +25,27 @@ const Music = () => {
               .filter((val) => val.catgeory === "fun")
               .map((val) => {
                 return (
-                  <div className='items'>
+                  <div className='items' key={val.id}>
                     <div className='box shadow flexSB'>
                       <div className='images'>
                         <div className='img'>
                           <img src={val.cover} alt='' />
                         </div>
-                        <div class='catgeory catgeory1'>
+                        <div className='catgeory catgeory1'>
                           <span>{val.catgeory}</span>
                         </div>
                       </div>
                       <div className='text'>
                         <h1 className='title'>{val.title.slice(0, 40)}...</h1>
                         <div className='date'>
-                          <i class='fas fa-calendar-days'></i>
+                          <i className='fas fa-calendar-days'></i>
                           <label>{val.date}</label>
                         </div>
                         <p className='desc'>{val.desc.slice(0, 160)}...</p>
                         <div className='comment'>
-                          <i class='fas fa-share'></i>
+                          <i className='fas fa-share'></i>
                           <label>Share / </label>
-                          <i class='fas fa-comments'></i>
+                          <i className='fas fa-comments'></i>
                           <label>{val.comments}</label>
                         </div>
                       </div>
